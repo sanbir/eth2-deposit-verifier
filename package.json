@@ -1,0 +1,11 @@
+{
+  "name": "eth2-deposit-verifier",
+  "version": "1.0.0",
+  "description": "Verifies deposits submitted to ETH2 DepositContract",
+  "scripts": {
+    "verifyDeposit": "node verifyDeposit.js"
+  },
+  "devDependencies": {
+    "ethers": "5.7.1"
+  }
+}
